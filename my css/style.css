@@ -1,0 +1,673 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#topBar{
+    background-image: linear-gradient(#16beb11c,#16beb16b), url(../image/header.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo img {
+    width: 61px;
+    /* background: white; */
+    margin-top: 9px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.topMenu {
+    background: white;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+
+.container {
+    display: block;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.mainMenu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 24px;
+    font-size: 16px;
+}
+
+.mainMenu ul li a {
+    text-decoration: none;
+    color: #4f4d4d;
+    transition:0.3s;
+}
+.mainMenu ul li a:hover{
+          color:#16BEB1;
+        transform: scale(1.2);
+}
+.headerElement span {
+    color: #16BEB1;
+    font-weight: 100;
+    margin-right: 3px;
+    padding-top: 36px;
+}
+
+.headerElement {
+    margin-top: 146px;
+    margin-left: 60px;
+}
+
+.headerElement h1 {
+    font-family: -webkit-pictograph;
+    font-weight: 100;
+    color: #4b4949;
+}
+
+.headerElement p {
+    width: 313px;
+    text-align: center;
+    line-height: 22px;
+    color: #4f4d4d;
+    margin-bottom: 67px;
+    margin-left: 44px;
+}
+
+.headerElement button {
+    background: #16BEB1;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+    font-size: 16px;
+    margin-bottom: 221px;
+    margin-left: 98px;
+}
+.highestTitle {
+  overflow: hidden;
+}
+
+.highestTitle h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  color: #5c5757;
+  margin-top: 30px;
+}
+
+.highestTitle i {
+  color: #16BEB1;
+  font-size: 37px;
+  margin-right: 17px;
+}
+.highestTitle i:hover{
+    translate:scale(1.2);
+}
+.highestTitle i:last-child {
+  margin-left: 17px;
+}
+
+.highestTitle p {
+  text-align: center;
+  color: #5c5a5a;
+}
+.row {overflow: hidden;margin-top: 40px;}
+
+.col-3 {
+overflow: hidden;
+}
+
+.Icon {
+text-align: center;
+font-size: 50px;
+color: #16BEB1;
+}
+
+.IconTitle {
+overflow: hidden;
+}
+
+.IconTitle h1 {
+text-align: center;
+font-size: 25px;
+font-weight: 200;
+}
+
+.IconTitle p {
+text-align: center;
+color: #686161;
+font-size: 18px;
+letter-spacing: -1px;
+line-height: 19px;
+}
+.appointment {
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 96px;
+}
+
+.appointment button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background: #f2f1f1;
+    color: #4b4949;
+}
+
+.appointment button i {
+    padding: 7px;
+    /* background: #d7d9db; */
+    color: #16BEB1;
+}
+#OurClinic{
+    background:#e6f5f4;
+}
+.col-6 {
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.col-6 img {
+    background-size: cover;
+    width: 100%;
+    margin-top: 22px;
+    height: 260px;
+}
+
+.col-6 h3 {
+    margin-top: 10px;
+    color: #7b7878;
+    font-weight: 100;
+}
+
+.col-6 p {
+    font-size: 17px;
+    color: #515151;
+}
+.col-3.opening h2 {
+    font-size: 34px;
+    font-weight: 300;
+    padding: 17px;
+    margin-left: -15px;
+    letter-spacing: -1px;
+}
+
+.col-3.opening p {
+    font-size: 17px;
+    line-height: 20px;
+    color: #604d4d;
+    margin-top: -9px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+
+.col-3.opening {
+    background: #f6f3f3;
+    margin-top: 22px;
+    overflow: hidden;
+    margin-bottom: 27px;
+    margin-right: 27px;
+    width: 257px;
+}
+.monday p {
+    text-align: center;
+    font-size: 35px;
+}
+
+.monday p {
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.monday span {
+    text-align: center;
+    margin: auto;
+    padding-top: -7px;
+    line-height: 0px;
+    color: #16BEB1;
+}
+
+.monday {
+    text-align: center;
+}
+p#opening {
+    margin-bottom: 33px;
+}
+.sunday {
+    text-align: center;
+    margin-top: 31px;
+}
+p#sundaycontent {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+p#sundaycontent span {
+    color: #16BEB1;
+}
+
+.sunday span {
+    color: #16BEB1;
+}
+p#mondaycontent {
+    margin-bottom: 16px;
+}
+.col-3.touch {
+    background: #16BEB1;
+    margin-top: 21px;
+    width: 266px;
+    overflow: hidden;
+    margin-bottom: 26px;
+}
+
+.col-3.touch h2 {
+    color: white;
+    padding: 18px;
+    width: 268px;
+    margin-left: -16px;
+    font-size: 32px;
+    letter-spacing: -2px;
+    word-spacing: 1px;
+    font-weight: 300;
+}
+
+.iconTitle i {
+    font-size: 29px;
+    margin-left: 16px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 12px;
+}
+
+.iconTitle h4 {
+    color: white;
+    margin-left: 62px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: -3px;
+}
+
+.iconTitle p {
+    margin-left: 61px;
+    color: white;
+    line-height: 17px;
+    letter-spacing: -1px;
+    font-size: 16px;
+}
+
+.phoneNumber {
+    border-top: 1px solid #d5cccc;
+    border-bottom: 1px solid #d1c8c8;
+}
+
+.phoneNumber i {
+    padding: 9px;
+    font-size: 24px;
+    margin-left: 7px;
+    margin-bottom: -5px;
+}
+
+.phoneNumber span {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 13px;
+    display: block;
+    margin-top: 9px;
+}
+
+.envolopeGmail {border-bottom: 1px solid #d5d2d2;}
+
+.envolopeGmail i {
+    font-size: 24px;
+    margin-top: 2px;
+    margin-right: 22px;
+}
+
+.envolopeGmail span {
+    color: white;
+    font-size: 16px;
+    margin-top: 14px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.lock i {
+    font-size: 24px;
+    margin-top: -2px;
+    margin-left: 17px;
+}
+
+.lock span {
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-top: 17px;
+}
+
+.lock {
+    margin-bottom: -18px;
+}
+.heltTitle {
+    overflow: hidden;
+    text-align: center;
+}
+
+.heltTitle p {
+    margin-top: 39px;
+    font-size: 16px;
+    color: #958888;
+    margin-bottom: -3px;
+}
+
+.heltTitle h2 {
+    color: #16BEB1;
+    font-size: 43px;
+    word-spacing: -3px;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+.col-4 i {
+    color: #16BEB1;
+    /* text-align: center; */
+    display: block;
+    font-size: 47px;
+    width: 67px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.col-4 h3 {
+    color: #7d7272;
+    font-size: 30px;
+    margin-bottom: -1px;
+    font-weight: lighter;
+}
+
+.col-4 {
+    overflow: hidden;
+}
+
+.col-4 p {}
+
+.col-4 p {
+    font-size: 15px;
+    /* margin-right: 127px; */
+    color: #5a5454;
+}
+#signUp{
+    background: #16BEB1;
+}
+.signupSection p {
+    color: white;
+    margin-left: 59px;
+    margin-top: 40px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.signupSection button {
+    margin-left: 255px;
+    margin-top: 37px;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    color: #565353;
+}
+.col-3 img {
+    width: 100%;
+}
+
+.col-3 h3 {
+    color: #8f8f8f;
+}
+
+.col-3 p {
+    color: #645d5d;
+    font-size: 17px;
+    line-height: 18px;
+}
+ul.socialIcon li {
+    list-style: none;
+    float: left;
+    padding: 7px 13px;
+    border: 1px solid #b4adad;
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+ul.socialIcon li:first-child {
+    margin-left: -39px;
+}
+
+ul.socialIcon {
+    margin-top: 92px;
+}
+
+ul.socialIcon li a {
+    color: #282626;
+}
+#footerSection{
+    background: #141213;
+}
+section#doctors {
+    margin-bottom: 60px;
+}
+.col-3.first h1 {
+    color: #2A84FF;
+    font-size: 38px;
+    float: left;
+}
+
+.col-3.first h2 {
+    color: #D57700;
+    font-size: 30px;
+    margin-top: 9px;
+}
+
+.col-3.first p {
+    color: #999;
+}
+
+.col-3.second h1 {
+    color: white;
+    font-size: 39px;
+}
+
+.col-3.second ul li {
+    list-style: none;
+    margin-left: -37px;
+    /* color: #999; */
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.col-3.second ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.col-3.second ul li a i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.col-3.third h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 46px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.footerImg {
+    width: 73px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footerContent p {
+    color: #999;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footerContent span {
+    color: #474444;
+    float: left;
+    margin-left: 96px;
+    font-size: 13px;
+    margin-top: 1px;
+}
+.col-3.fourth h1 {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+.col-3.fourth p {
+    color: #e8e0e0;
+    margin-top: 42px;
+}
+
+.col-3.fourth h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 56px;
+    font-weight: bold;
+}
+.col-3.fivth h1 {
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+  }
+  
+  .mapIcon i {
+    color: white;
+    margin-top: 5px;
+    float: left;
+    margin-right: 17px;
+  }
+  
+  .mapIcon p {
+    color: #999;
+    font-size: 15px;
+    margin-top: 21px;
+  }
+  
+  .mapIcon {
+    margin-top: 44px;
+  }
+  
+  .phoneIcon i {
+    color: white;
+    margin-top: 10px;
+    float: left;
+    margin-right: 11px;
+  }
+  
+  .phoneIcon p {
+    color: #999;
+    font-size: 16px;
+    margin-top: 23px;
+    padding-top: 12px;
+  }
+  
+  .envolopeIcon i {
+    color: white;
+    float: left;
+    margin-right: 13px;
+  }
+  
+  .envolopeIcon {
+    margin-top: 34px;
+  }
+  
+  .envolopeIcon p {
+    color: #999;
+  }
+  
+  .ourSocial ul li {
+    list-style: none;
+    display: inline;
+    /* margin-left: 6px; */
+    margin-right: 16px;
+  }
+  
+  .ourSocial {
+    margin-left: -23px;
+    margin-top: 40px;
+  }
+  
+  .ourSocial ul li a {
+    color: white;
+  }
+  
+  .col-3.six h1 {
+    color: white;
+    font-size: 32px;
+    margin-left: 16px;
+    font-weight: bold;
+  }
+  
+  .ourService ul li {
+    list-style: none;
+  }
+  
+  .ourService ul li a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .ourService {
+    margin-top: 45px;
+  }
+  
+  .col-3.seven h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .col-3.seven p {
+    color: #999;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  span#spanTag {
+    color: #7f7575;
+  }
+  span#comment {
+    color: #726e6e;
+  }
+  .col-3.eight {}
+
+.footerBtn input {
+  padding: 10px 33px;
+  outline: none;
+  border: none;
+  background: #454444;
+  color: #aa9d9d;
+  font-size: 17px;
+  width: 99%;
+}
+
+.footerBtn button {
+  width: 99%;
+  border: none;
+  background: #3089FD;
+  color: white;
+  padding: 8px;
+  font-size: 17px;
+}
+
+.footerBtn {
+  margin-top: 33px;
+}
